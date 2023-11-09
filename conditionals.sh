@@ -1,10 +1,11 @@
 #!/bin/bash
 
-name=$1
 
-if [[ ${name} == "Nunez" ]]
+read -p "What is your name?" name
+
+if [[ -z ${name} ]]
 then
     echo "Please enter your name!"
 else
-    echo "Hi there ${name}
+    echo "Hi there ${name}"
 fi
