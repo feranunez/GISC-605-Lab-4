@@ -76,3 +76,4 @@ $(ColorBlue 'Choose an option:') "
 }
 
 menu
+
